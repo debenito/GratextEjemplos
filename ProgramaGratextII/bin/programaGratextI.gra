@@ -1,0 +1,50 @@
+Granja: BENI2
+Centralita:
+DELAVAL
+Usuario: BENI2
+Contraseña: "vieja"
+Dispositivos{
+	Codigo:CODI1 Sensor  CAMARA  quiero ABRIR 
+	Codigo:CODI2 Sensor  BARRERA_SEGURIDAD quiero ABRIR 
+	Codigo:CODI3 Sensor  CO2  quiero ESTADO 
+	Codigo:CODI5 Sensor BARRERA_SEGURIDAD quiero ESTADO 
+	Codigo:CODI5 Sensor BARRERA_SEGURIDAD quiero CERRAR 
+/*Mal no se puede enviar */	Codigo: CODI6 Sensor CAMARA  quiero ABRIR
+/*No puede grabar CO2  */	Codigo: CODI7 Sensor CO2  quiero ESTADO
+	Codigo: CODI8 Sensor BARRERA_SEGURIDAD quiero CERRAR
+/* No se puede sacar y falta unidades*/	Codigo: CODI9 Sensor CO2  quiero ESTADO 
+/*Solo ver estado */	Codigo: CODI10 Sensor DEPOSITO_LECHE  quiero ESTADO
+/*Solo ver estado */	Codigo: CODI11 Sensor EMERGENCIA  quiero ESTADO
+/*Solo ver estado */	Codigo: CODI12 Sensor FUEGO_HUMO  quiero ESTADO
+/*Solo ver estado */	Codigo: CODI13 Sensor ESTACION_METEOROLOGICA  quiero ESTADO
+/*Solo ver estado */	Codigo: CODI14 Sensor INUNDACION  quiero ESTADO
+/*Solo apagar , enceder, activar,descativar,estado */	Codigo: CODI15 Sensor ROBOT_LIMPIADOR  quiero ACTIVAR
+	Codigo: CODI16 Sensor PULSOMETRO_GANADO quiero ESTADO
+	Codigo: CODI17 Sensor MECEDORA quiero DESACTIVAR
+	Codigo: CODI18 Sensor INFRARROJOS quiero APAGAR
+/*Solo apagar , enceder, activar,descativar,estado */	Codigo: CODI19 Sensor LUMINOSIDAD  quiero APAGAR
+/*Solo apagar , enceder, activar,descativar,estado */	Codigo: CODI20 Sensor NEVERAS  quiero ENCENDER
+/*Solo ver estado */	Codigo: CODI21 Sensor VIENTO  quiero ESTADO
+/*Solo ver estado */	Codigo: CODI22 Sensor ROTURA_CRISTAL  quiero ESTADO
+/*Solo apagar , enceder, activar,descativar,estado */	Codigo: CODI23 Sensor RADIOFRECUENCIA  quiero ACTIVAR
+/*Solo ver estado */	Codigo: CODI24 Sensor INUNDACION  quiero ESTADO
+/*Solo ver estado */	Codigo: CODI25 Sensor LLUVIA  quiero ESTADO
+	Codigo: CODI26 Sensor SISTEMA_IDENTIFICACION quiero DESACTIVAR
+	Codigo: CODI27 Sensor ROBOT_LIMPIADOR quiero ACTIVAR
+	Codigo: CODI28 Sensor NEVERAS quiero ENCENDER
+	Codigo: CODI28 Sensor TEMPERATURA "AMBIENTE" quiero ESTADO
+	Codigo: CODI28 Sensor TEMPERATURA "externa" quiero ESTADO
+	Codigo: CODI28 Sensor TEMPERATURA 'DEPOSITO_LECHE' quiero ESTADO
+	Codigo: CODI28 Sensor TEMPERATURA "INTERNA" quiero ESTADO
+	Codigo: CODI28 Sensor TEMPERATURA "AMBIENTE" quiero ESTADO
+	Codigo: CODI29 Sensor NEVERAS  quiero ENCENDER
+	Codigo: CODI29 Sensor CO2 quiero ESTADO
+	Codigo: CODI28 Sensor TEMPERATURA 'INTERNA'quiero ESTADO
+/*Mal no puedo sacar numeros doubles */Codigo: CODI6 Sensor CAMARA quiero SACAR 1020
+		Codigo: CODI28 Sensor LUZ  quiero AUMENTAR 20.3
+		Codigo: CODI28 Sensor TEMPERATURA  'MECEDORA' quiero ESTADO
+	/*Mal solo deberia dejar numeros */	Codigo: CODI28 Sensor INUNDACION quiero ESTADO
+	Codigo: CODI28 Sensor EMERGENCIA  quiero ESTADO
+	Codigo: CODI28 Sensor LUZ quiero AUMENTAR 10.02
+	Codigo: CODI28 Sensor LUZ  quiero AUMENTAR 10 ' AUMENTAR el/la LUZ' 
+	}

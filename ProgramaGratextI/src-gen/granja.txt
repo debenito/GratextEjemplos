@@ -1,0 +1,57 @@
+Nombre de la granja registrada: BENI1 tipo de dispositivo o centralita:DELAVAL
+Su usuario es el siguiente:DOS 
+Su contraseña es la siguiente: nueva
+Los dispositivos conectados en la granja BENI1 son los siguientes:
+LISTA DE DISPOSITIVOS
+=========================================================
+Dispositivo: BARRERA_SEGURIDAD con el siguiente codigo del dispositivo CODI1	
+Se desea la siguiente accion ABRIR  
+	
+	
+Dispositivo: BARRERA_SEGURIDAD con el siguiente codigo del dispositivo CODI2	
+Se desea la siguiente accion ABRIR  
+	
+	
+Dispositivo: ROTURA_CRISTAL con el siguiente codigo del dispositivo CODI3	
+Se desea la siguiente accion ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL con el siguiente codigo del dispositivo CODI4	
+Se desea la siguiente accion ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL con el siguiente codigo del dispositivo CODI5	
+Se desea la siguiente accion ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL con el siguiente codigo del dispositivo CODI6	
+Se desea la siguiente accion ESTADO  
+	El dispositivo contiene la siguiente descripcion:  ESTADO el/la ROTURA_CRISTAL
+	
+	
+Dispositivo: TEMPERATURA con el siguiente codigo del dispositivo CODI7	
+Se desea ESTADO la temperatura del : AMBIENTE 
+	El dispositivo contiene la siguiente descripcion:  ESTADO el/la TEMPERATURA
+	
+	
+Dispositivo: CAMARA con el siguiente codigo del dispositivo CODI8	
+Se desea la siguiente accion SACAR  
+"Con el siguiente valor:"org.xtext.dsl.gratext.gratext.impl.numeroImpl@46c201d9 (idNumero: 10, datos: FOTOS)
+	El dispositivo contiene la siguiente descripcion:  SACAR10 FOTOS del CAMARA
+	
+	
+Dispositivo: BARRERA_SEGURIDAD con el siguiente codigo del dispositivo CODI9	
+Se desea la siguiente accion ABRIR  
+	El dispositivo contiene la siguiente descripcion:  ABRIR el/la BARRERA_SEGURIDAD
+	
+	
+Dispositivo: INUNDACION con el siguiente codigo del dispositivo CODI10	
+Se desea la siguiente accion ESTADO  
+	El dispositivo contiene la siguiente descripcion:  ESTADO el/la INUNDACION
+	
+	
+Dispositivo: ESTACION_METEOROLOGICA con el siguiente codigo del dispositivo CODI11	
+Se desea la siguiente accion ESTADO  
+	El dispositivo contiene la siguiente descripcion:  ESTADO el/la ESTACION_METEOROLOGICA
+	
+	

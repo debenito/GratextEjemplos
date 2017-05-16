@@ -1,0 +1,107 @@
+<registro>
+	<dispositivo>
+	<dispositivo_id>dispositivo0</dispositivo_id>
+	<dispositivo_descripcion>Es el DELAVAL</dispositivo_descripcion>
+	</dispositivo>
+	
+		
+		
+		<action>
+					
+					<id_action> dispositivoAccion0-0</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-1</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-0</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-1</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-2</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-3</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-4</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-2</id_action>
+					<action_name>CAMARA</action_name>
+					<action_descripcion> SACAR10 FOTOS del CAMARA</action_descripcion>
+					<has_menssage>int</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-3</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion> ABRIR el/la BARRERA_SEGURIDAD</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-5</idservicio>
+			<descripcion>INUNDACION</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-6</idservicio>
+			<descripcion>ESTACION_METEOROLOGICA</descripcion>
+			<enviaTipo>float<enviaTipo>
+			
+			
+		
+		</servicio>
+		
+		
+
+	</registro>

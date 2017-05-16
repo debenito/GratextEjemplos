@@ -1,0 +1,22 @@
+Nombre de la granja registrada: BENI1 tipo de dispositivo o centralita:DELAVAL
+Su usuario es el siguiente:DOS 
+Su contraseña es la siguiente: nueva
+Los dispositivos conectados en la granja BENI1 son los siguientes:
+LISTA DE DISPOSITIVOS
+=========================================================
+Dispositivo: ROTURA_CRISTAL con el siguiente codigo del dispositivo CODI1	
+Se desea la siguiente accion ESTADO  
+	El dispositivo contiene la siguiente descripcion:  ESTADO el/la ROTURA_CRISTAL
+	
+	
+Dispositivo: TEMPERATURA con el siguiente codigo del dispositivo CODI2	
+Se desea ESTADO la temperatura del : AMBIENTE 
+	El dispositivo contiene la siguiente descripcion:  ESTADO el/la TEMPERATURA
+	
+	
+Dispositivo: CAMARA con el siguiente codigo del dispositivo CODI3	
+Se desea la siguiente accion SACAR  
+"Con el siguiente valor:"org.xtext.dsl.gratext.gratext.impl.numeroImpl@2582a7ca (idNumero: 20, datos: FOTOS)
+	El dispositivo contiene la siguiente descripcion:  SACAR 20 FOTOS del CAMARA
+	
+	

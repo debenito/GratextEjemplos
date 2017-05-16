@@ -1,0 +1,38 @@
+<registro>
+	<dispositivo>
+	<dispositivo_id>dispositivo0</dispositivo_id>
+	<dispositivo_descripcion>Es el DELAVAL</dispositivo_descripcion>
+	</dispositivo>
+	
+		
+		
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-0</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-1</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-0</id_action>
+					<action_name>CAMARA</action_name>
+					<action_descripcion> SACAR 20 FOTOS del CAMARA</action_descripcion>
+					<has_menssage>int</has_message>
+					
+		</action>
+		
+		
+
+	</registro>

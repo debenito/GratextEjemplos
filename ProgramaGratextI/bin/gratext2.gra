@@ -1,0 +1,18 @@
+Granja: BENI1
+ Centralita:DELAVAL 
+ Usuario: DOS
+ Contraseña: "nueva"
+Dispositivos{
+	Codigo:CODI1 Sensor  BARRERA_SEGURIDAD quiero ABRIR 
+		Codigo:CODI2 Sensor  BARRERA_SEGURIDAD quiero ABRIR 
+	Codigo:CODI3 Sensor ROTURA_CRISTAL quiero ESTADO
+	Codigo:CODI4 Sensor ROTURA_CRISTAL quiero ESTADO
+	Codigo:CODI5 Sensor ROTURA_CRISTAL quiero ESTADO
+	Codigo:CODI6 Sensor ROTURA_CRISTAL quiero ESTADO ' ESTADO el/la ROTURA_CRISTAL'
+ Codigo: CODI7 Sensor TEMPERATURA "AMBIENTE"  quiero ESTADO ' ESTADO el/la TEMPERATURA'
+ Codigo: CODI8 Sensor CAMARA quiero SACAR  10 FOTOS ' SACAR10 FOTOS del CAMARA'
+ Codigo: CODI9  Sensor  BARRERA_SEGURIDAD quiero ABRIR ' ABRIR el/la BARRERA_SEGURIDAD'
+ Codigo: CODI10 Sensor  INUNDACION quiero ESTADO ' ESTADO el/la INUNDACION' 
+ Codigo: CODI11 Sensor  ESTACION_METEOROLOGICA quiero ESTADO ' ESTADO el/la ESTACION_METEOROLOGICA' 
+
+}
