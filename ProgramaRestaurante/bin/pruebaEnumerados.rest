@@ -1,8 +1,0 @@
-Menu "especialBeni"
-tipo ESPECIAL
-
-Menu "dos"
-tipo DIA
-
-Menu "fiesta"
-tipo NOCHE
