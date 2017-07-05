@@ -1,57 +1,584 @@
-Nombre de la granja registrada: BENI1 tipo de dispositivo o centralita:DELAVAL
-Su usuario es el siguiente:DOS 
-Su contraseña es la siguiente: nueva
-Los dispositivos conectados en la granja BENI1 son los siguientes:
-LISTA DE DISPOSITIVOS
-=========================================================
-Dispositivo: BARRERA_SEGURIDAD con el siguiente codigo del dispositivo CODI1	
-Se desea la siguiente accion ABRIR  
+ nombre:BENI1
+ centralita:DELAVAL
+usuario:DOS 
+contraseña: nueva
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI1	
+accion: ABRIR  
 	
 	
-Dispositivo: BARRERA_SEGURIDAD con el siguiente codigo del dispositivo CODI2	
-Se desea la siguiente accion ABRIR  
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI2	
+accion: ABRIR  
 	
 	
-Dispositivo: ROTURA_CRISTAL con el siguiente codigo del dispositivo CODI3	
-Se desea la siguiente accion ESTADO  
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI3	
+accion: ESTADO  
 	
 	
-Dispositivo: ROTURA_CRISTAL con el siguiente codigo del dispositivo CODI4	
-Se desea la siguiente accion ESTADO  
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI4	
+accion: ESTADO  
 	
 	
-Dispositivo: ROTURA_CRISTAL con el siguiente codigo del dispositivo CODI5	
-Se desea la siguiente accion ESTADO  
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI5	
+accion: ESTADO  
 	
 	
-Dispositivo: ROTURA_CRISTAL con el siguiente codigo del dispositivo CODI6	
-Se desea la siguiente accion ESTADO  
-	El dispositivo contiene la siguiente descripcion:  ESTADO el/la ROTURA_CRISTAL
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI6	
+accion: ESTADO  
+	descripcion:  ESTADO el/la ROTURA_CRISTAL
 	
 	
-Dispositivo: TEMPERATURA con el siguiente codigo del dispositivo CODI7	
-Se desea ESTADO la temperatura del : AMBIENTE 
-	El dispositivo contiene la siguiente descripcion:  ESTADO el/la TEMPERATURA
+Dispositivo: TEMPERATURA 
+codigo: CODI7	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	descripcion:  ESTADO el/la TEMPERATURA
 	
 	
-Dispositivo: CAMARA con el siguiente codigo del dispositivo CODI8	
-Se desea la siguiente accion SACAR  
-"Con el siguiente valor:"org.xtext.dsl.gratext.gratext.impl.numeroImpl@46c201d9 (idNumero: 10, datos: FOTOS)
-	El dispositivo contiene la siguiente descripcion:  SACAR10 FOTOS del CAMARA
+Dispositivo: CAMARA 
+codigo: CODI8	
+accion: SACAR  
+numero: 10 
+datos:FOTOS
+	descripcion:  SACAR10 FOTOS del CAMARA
 	
 	
-Dispositivo: BARRERA_SEGURIDAD con el siguiente codigo del dispositivo CODI9	
-Se desea la siguiente accion ABRIR  
-	El dispositivo contiene la siguiente descripcion:  ABRIR el/la BARRERA_SEGURIDAD
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI9	
+accion: ABRIR  
+	descripcion:  ABRIR el/la BARRERA_SEGURIDAD
 	
 	
-Dispositivo: INUNDACION con el siguiente codigo del dispositivo CODI10	
-Se desea la siguiente accion ESTADO  
-	El dispositivo contiene la siguiente descripcion:  ESTADO el/la INUNDACION
+Dispositivo: INUNDACION 
+codigo: CODI10	
+accion: ESTADO  
+	descripcion:  ESTADO el/la INUNDACION
 	
 	
-Dispositivo: ESTACION_METEOROLOGICA con el siguiente codigo del dispositivo CODI11	
-Se desea la siguiente accion ESTADO  
-	El dispositivo contiene la siguiente descripcion:  ESTADO el/la ESTACION_METEOROLOGICA
+Dispositivo: ESTACION_METEOROLOGICA 
+codigo: CODI11	
+accion: ESTADO  
+	descripcion:  ESTADO el/la ESTACION_METEOROLOGICA
+	
+	
+Dispositivo: INUNDACION 
+codigo: CODI12	
+accion: ESTADO  
+	
+	
+Dispositivo: LLUVIA 
+codigo: CODI25	
+accion: ESTADO  
+	
+	
+Dispositivo: SISTEMA_IDENTIFICACION 
+codigo: CODI13	
+accion: DESACTIVAR  
+	
+	
+Dispositivo: ROBOT_LIMPIADOR 
+codigo: CODI14	
+accion: ACTIVAR  
+	
+	
+Dispositivo: NEVERAS 
+codigo: CODI15	
+accion: ENCENDER  
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI16	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	
+	
+Dispositivo: SISTEMA_IDENTIFICACION 
+codigo: CODI17	
+accion: DESACTIVAR  
+	
+	
+Dispositivo: ROBOT_LIMPIADOR 
+codigo: CODI18	
+accion: ACTIVAR  
+	
+	
+Dispositivo: NEVERAS 
+codigo: CODI19	
+accion: ENCENDER  
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI20	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI1	
+accion: ABRIR  
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI2	
+accion: ABRIR  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI3	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI4	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI5	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI6	
+accion: ESTADO  
+	descripcion:  ESTADO el/la ROTURA_CRISTAL
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI7	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	descripcion:  ESTADO el/la TEMPERATURA
+	
+	
+Dispositivo: CAMARA 
+codigo: CODI8	
+accion: SACAR  
+numero: 10 
+datos:FOTOS
+	descripcion:  SACAR10 FOTOS del CAMARA
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI9	
+accion: ABRIR  
+	descripcion:  ABRIR el/la BARRERA_SEGURIDAD
+	
+	
+Dispositivo: INUNDACION 
+codigo: CODI10	
+accion: ESTADO  
+	descripcion:  ESTADO el/la INUNDACION
+	
+	
+Dispositivo: ESTACION_METEOROLOGICA 
+codigo: CODI11	
+accion: ESTADO  
+	descripcion:  ESTADO el/la ESTACION_METEOROLOGICA
+	
+	
+Dispositivo: INUNDACION 
+codigo: CODI12	
+accion: ESTADO  
+	
+	
+Dispositivo: LLUVIA 
+codigo: CODI25	
+accion: ESTADO  
+	
+	
+Dispositivo: SISTEMA_IDENTIFICACION 
+codigo: CODI13	
+accion: DESACTIVAR  
+	
+	
+Dispositivo: ROBOT_LIMPIADOR 
+codigo: CODI14	
+accion: ACTIVAR  
+	
+	
+Dispositivo: NEVERAS 
+codigo: CODI15	
+accion: ENCENDER  
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI16	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	
+	
+Dispositivo: SISTEMA_IDENTIFICACION 
+codigo: CODI17	
+accion: DESACTIVAR  
+	
+	
+Dispositivo: ROBOT_LIMPIADOR 
+codigo: CODI18	
+accion: ACTIVAR  
+	
+	
+Dispositivo: NEVERAS 
+codigo: CODI19	
+accion: ENCENDER  
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI20	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI1	
+accion: ABRIR  
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI2	
+accion: ABRIR  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI3	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI4	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI5	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI6	
+accion: ESTADO  
+	descripcion:  ESTADO el/la ROTURA_CRISTAL
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI7	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	descripcion:  ESTADO el/la TEMPERATURA
+	
+	
+Dispositivo: CAMARA 
+codigo: CODI8	
+accion: SACAR  
+numero: 10 
+datos:FOTOS
+	descripcion:  SACAR10 FOTOS del CAMARA
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI9	
+accion: ABRIR  
+	descripcion:  ABRIR el/la BARRERA_SEGURIDAD
+	
+	
+Dispositivo: INUNDACION 
+codigo: CODI10	
+accion: ESTADO  
+	descripcion:  ESTADO el/la INUNDACION
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI1	
+accion: ABRIR  
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI2	
+accion: ABRIR  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI3	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI4	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI5	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI6	
+accion: ESTADO  
+	descripcion:  ESTADO el/la ROTURA_CRISTAL
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI7	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	descripcion:  ESTADO el/la TEMPERATURA
+	
+	
+Dispositivo: CAMARA 
+codigo: CODI8	
+accion: SACAR  
+numero: 10 
+datos:FOTOS
+	descripcion:  SACAR10 FOTOS del CAMARA
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI9	
+accion: ABRIR  
+	descripcion:  ABRIR el/la BARRERA_SEGURIDAD
+	
+	
+Dispositivo: INUNDACION 
+codigo: CODI10	
+accion: ESTADO  
+	descripcion:  ESTADO el/la INUNDACION
+	
+	
+Dispositivo: ESTACION_METEOROLOGICA 
+codigo: CODI11	
+accion: ESTADO  
+	descripcion:  ESTADO el/la ESTACION_METEOROLOGICA
+	
+	
+Dispositivo: INUNDACION 
+codigo: CODI12	
+accion: ESTADO  
+	
+	
+Dispositivo: LLUVIA 
+codigo: CODI25	
+accion: ESTADO  
+	
+	
+Dispositivo: SISTEMA_IDENTIFICACION 
+codigo: CODI13	
+accion: DESACTIVAR  
+	
+	
+Dispositivo: ROBOT_LIMPIADOR 
+codigo: CODI14	
+accion: ACTIVAR  
+	
+	
+Dispositivo: NEVERAS 
+codigo: CODI15	
+accion: ENCENDER  
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI16	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	
+	
+Dispositivo: SISTEMA_IDENTIFICACION 
+codigo: CODI17	
+accion: DESACTIVAR  
+	
+	
+Dispositivo: ROBOT_LIMPIADOR 
+codigo: CODI18	
+accion: ACTIVAR  
+	
+	
+Dispositivo: NEVERAS 
+codigo: CODI19	
+accion: ENCENDER  
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI20	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI1	
+accion: ABRIR  
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI2	
+accion: ABRIR  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI3	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI4	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI5	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI6	
+accion: ESTADO  
+	descripcion:  ESTADO el/la ROTURA_CRISTAL
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI7	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	descripcion:  ESTADO el/la TEMPERATURA
+	
+	
+Dispositivo: CAMARA 
+codigo: CODI8	
+accion: SACAR  
+numero: 10 
+datos:FOTOS
+	descripcion:  SACAR10 FOTOS del CAMARA
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI9	
+accion: ABRIR  
+	descripcion:  ABRIR el/la BARRERA_SEGURIDAD
+	
+	
+Dispositivo: INUNDACION 
+codigo: CODI10	
+accion: ESTADO  
+	descripcion:  ESTADO el/la INUNDACION
+	
+	
+Dispositivo: ESTACION_METEOROLOGICA 
+codigo: CODI11	
+accion: ESTADO  
+	descripcion:  ESTADO el/la ESTACION_METEOROLOGICA
+	
+	
+Dispositivo: INUNDACION 
+codigo: CODI12	
+accion: ESTADO  
+	
+	
+Dispositivo: LLUVIA 
+codigo: CODI25	
+accion: ESTADO  
+	
+	
+Dispositivo: SISTEMA_IDENTIFICACION 
+codigo: CODI13	
+accion: DESACTIVAR  
+	
+	
+Dispositivo: ROBOT_LIMPIADOR 
+codigo: CODI14	
+accion: ACTIVAR  
+	
+	
+Dispositivo: NEVERAS 
+codigo: CODI15	
+accion: ENCENDER  
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI16	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	
+	
+Dispositivo: SISTEMA_IDENTIFICACION 
+codigo: CODI17	
+accion: DESACTIVAR  
+	
+	
+Dispositivo: ROBOT_LIMPIADOR 
+codigo: CODI18	
+accion: ACTIVAR  
+	
+	
+Dispositivo: NEVERAS 
+codigo: CODI19	
+accion: ENCENDER  
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI20	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI1	
+accion: ABRIR  
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI2	
+accion: ABRIR  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI3	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI4	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI5	
+accion: ESTADO  
+	
+	
+Dispositivo: ROTURA_CRISTAL 
+codigo: CODI6	
+accion: ESTADO  
+	descripcion:  ESTADO el/la ROTURA_CRISTAL
+	
+	
+Dispositivo: TEMPERATURA 
+codigo: CODI7	
+accion: ESTADO 
+temperatura : AMBIENTE 
+	descripcion:  ESTADO el/la TEMPERATURA
+	
+	
+Dispositivo: CAMARA 
+codigo: CODI8	
+accion: SACAR  
+numero: 10 
+datos:FOTOS
+	descripcion:  SACAR10 FOTOS del CAMARA
+	
+	
+Dispositivo: BARRERA_SEGURIDAD 
+codigo: CODI9	
+accion: ABRIR  
+	descripcion:  ABRIR el/la BARRERA_SEGURIDAD
+	
+	
+Dispositivo: INUNDACION 
+codigo: CODI10	
+accion: ESTADO  
+	descripcion:  ESTADO el/la INUNDACION
 	
 	

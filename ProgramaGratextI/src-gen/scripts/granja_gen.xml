@@ -101,6 +101,799 @@
 			
 		
 		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-7</idservicio>
+			<descripcion>INUNDACION</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-8</idservicio>
+			<descripcion>LLUVIA</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-4</id_action>
+					<action_name>SISTEMA_IDENTIFICACION</action_name>
+					<action_descripcion>DESACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-5</id_action>
+					<action_name>ROBOT_LIMPIADOR</action_name>
+					<action_descripcion>ACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-6</id_action>
+					<action_name>NEVERAS</action_name>
+					<action_descripcion>ENCENDER</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-9</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-7</id_action>
+					<action_name>SISTEMA_IDENTIFICACION</action_name>
+					<action_descripcion>DESACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-8</id_action>
+					<action_name>ROBOT_LIMPIADOR</action_name>
+					<action_descripcion>ACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-9</id_action>
+					<action_name>NEVERAS</action_name>
+					<action_descripcion>ENCENDER</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-10</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-10</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-11</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-11</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-12</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-13</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-14</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-15</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-12</id_action>
+					<action_name>CAMARA</action_name>
+					<action_descripcion> SACAR10 FOTOS del CAMARA</action_descripcion>
+					<has_menssage>int</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-13</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion> ABRIR el/la BARRERA_SEGURIDAD</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-16</idservicio>
+			<descripcion>INUNDACION</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-17</idservicio>
+			<descripcion>ESTACION_METEOROLOGICA</descripcion>
+			<enviaTipo>float<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-18</idservicio>
+			<descripcion>INUNDACION</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-19</idservicio>
+			<descripcion>LLUVIA</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-14</id_action>
+					<action_name>SISTEMA_IDENTIFICACION</action_name>
+					<action_descripcion>DESACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-15</id_action>
+					<action_name>ROBOT_LIMPIADOR</action_name>
+					<action_descripcion>ACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-16</id_action>
+					<action_name>NEVERAS</action_name>
+					<action_descripcion>ENCENDER</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-20</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-17</id_action>
+					<action_name>SISTEMA_IDENTIFICACION</action_name>
+					<action_descripcion>DESACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-18</id_action>
+					<action_name>ROBOT_LIMPIADOR</action_name>
+					<action_descripcion>ACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-19</id_action>
+					<action_name>NEVERAS</action_name>
+					<action_descripcion>ENCENDER</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-21</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-20</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-21</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-22</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-23</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-24</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-25</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-26</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-22</id_action>
+					<action_name>CAMARA</action_name>
+					<action_descripcion> SACAR10 FOTOS del CAMARA</action_descripcion>
+					<has_menssage>int</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-23</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion> ABRIR el/la BARRERA_SEGURIDAD</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-27</idservicio>
+			<descripcion>INUNDACION</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-24</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-25</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-28</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-29</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-30</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-31</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-32</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-26</id_action>
+					<action_name>CAMARA</action_name>
+					<action_descripcion> SACAR10 FOTOS del CAMARA</action_descripcion>
+					<has_menssage>int</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-27</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion> ABRIR el/la BARRERA_SEGURIDAD</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-33</idservicio>
+			<descripcion>INUNDACION</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-34</idservicio>
+			<descripcion>ESTACION_METEOROLOGICA</descripcion>
+			<enviaTipo>float<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-35</idservicio>
+			<descripcion>INUNDACION</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-36</idservicio>
+			<descripcion>LLUVIA</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-28</id_action>
+					<action_name>SISTEMA_IDENTIFICACION</action_name>
+					<action_descripcion>DESACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-29</id_action>
+					<action_name>ROBOT_LIMPIADOR</action_name>
+					<action_descripcion>ACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-30</id_action>
+					<action_name>NEVERAS</action_name>
+					<action_descripcion>ENCENDER</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-37</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-31</id_action>
+					<action_name>SISTEMA_IDENTIFICACION</action_name>
+					<action_descripcion>DESACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-32</id_action>
+					<action_name>ROBOT_LIMPIADOR</action_name>
+					<action_descripcion>ACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-33</id_action>
+					<action_name>NEVERAS</action_name>
+					<action_descripcion>ENCENDER</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-38</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-34</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-35</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-39</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-40</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-41</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-42</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-43</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-36</id_action>
+					<action_name>CAMARA</action_name>
+					<action_descripcion> SACAR10 FOTOS del CAMARA</action_descripcion>
+					<has_menssage>int</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-37</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion> ABRIR el/la BARRERA_SEGURIDAD</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-44</idservicio>
+			<descripcion>INUNDACION</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-45</idservicio>
+			<descripcion>ESTACION_METEOROLOGICA</descripcion>
+			<enviaTipo>float<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-46</idservicio>
+			<descripcion>INUNDACION</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-47</idservicio>
+			<descripcion>LLUVIA</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-38</id_action>
+					<action_name>SISTEMA_IDENTIFICACION</action_name>
+					<action_descripcion>DESACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-39</id_action>
+					<action_name>ROBOT_LIMPIADOR</action_name>
+					<action_descripcion>ACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-40</id_action>
+					<action_name>NEVERAS</action_name>
+					<action_descripcion>ENCENDER</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-48</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-41</id_action>
+					<action_name>SISTEMA_IDENTIFICACION</action_name>
+					<action_descripcion>DESACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-42</id_action>
+					<action_name>ROBOT_LIMPIADOR</action_name>
+					<action_descripcion>ACTIVAR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-43</id_action>
+					<action_name>NEVERAS</action_name>
+					<action_descripcion>ENCENDER</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-49</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-44</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-45</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion>ABRIR</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-50</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-51</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-52</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-53</idservicio>
+			<descripcion>ROTURA_CRISTAL</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-54</idservicio>
+			<descripcion>TEMPERATURA</descripcion>
+			<enviaTipo>-<enviaTipo>
+			
+			
+		
+		</servicio>
+		<action>
+					
+					<id_action> dispositivoAccion0-46</id_action>
+					<action_name>CAMARA</action_name>
+					<action_descripcion> SACAR10 FOTOS del CAMARA</action_descripcion>
+					<has_menssage>int</has_message>
+					
+		</action>
+		<action>
+					
+					<id_action> dispositivoAccion0-47</id_action>
+					<action_name>BARRERA_SEGURIDAD</action_name>
+					<action_descripcion> ABRIR el/la BARRERA_SEGURIDAD</action_descripcion>
+					<has_menssage>-</has_message>
+					
+		</action>
+		<servicio>
+		
+			<idservicio>dispositivoServicio0-55</idservicio>
+			<descripcion>INUNDACION</descripcion>
+			<enviaTipo>boolean<enviaTipo>
+			
+			
+		
+		</servicio>
 		
 		
 

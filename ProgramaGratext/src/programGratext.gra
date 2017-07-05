@@ -5,34 +5,34 @@ Usuario: BENI1
 Contraseña: "nueva"
 Dispositivos{
 	Codigo:CODI1 Sensor  CAMARA quiero ENVIAR 
-	Codigo:CODI2 Sensor  BARRERA_SEGURIDAD quiero ABRIR 
-	Codigo:CODI3 Sensor  CO2  quiero ESTADO 
+	Codigo:CODI2 Sensor  BARRERA_SEGURIDAD quiero AUMENTAR 
+	Codigo:CODI3 Sensor  CO2  quiero ACTIVAR 
 	Codigo:CODI5 Sensor BARRERA_SEGURIDAD quiero ESTADO 
 	Codigo:CODI5 Sensor BARRERA_SEGURIDAD quiero CERRAR 
 	Codigo: CODI6 Sensor CAMARA quiero ENVIAR 'foto'
 	Codigo: CODI7 Sensor CO2  quiero ESTADO
 	Codigo: CODI8 Sensor BARRERA_SEGURIDAD quiero CERRAR
 	Codigo: CODI9 Sensor CO2  quiero ESTADO 
-/*Solo ver estado */	Codigo: CODI10 Sensor DEPOSITO_LECHE  quiero ESTADO
-/*Solo ver estado */	Codigo: CODI11 Sensor EMERGENCIA  quiero ESTADO
-/*Solo ver estado */	Codigo: CODI12 Sensor FUEGO_HUMO  quiero ESTADO
+/*Solo ver estado */	Codigo: CODI10 Sensor DEPOSITO_LECHE  quiero ABRIR
+/*Solo ver estado */	Codigo: CODI11 Sensor EMERGENCIA  quiero ABRIR
+/*Solo ver estado */	Codigo: CODI12 Sensor FUEGO_HUMO  quiero ABRIR
 /*Solo ver estado */	Codigo: CODI13 Sensor ESTACION_METEOROLOGICA  quiero ESTADO
 /*Solo ver estado */	Codigo: CODI14 Sensor INUNDACION  quiero ESTADO
 /*Solo apagar , enceder, activar,descativar,estado */	Codigo: CODI15 Sensor ROBOT_LIMPIADOR quiero GRABAR
 	Codigo: CODI16 Sensor PULSOMETRO_GANADO quiero ESTADO
 	Codigo: CODI17 Sensor MECEDORA quiero DESACTIVAR
 	Codigo: CODI18 Sensor INFRARROJOS quiero APAGAR
-/*Solo apagar , enceder, activar,descativar,estado */	Codigo: CODI19 Sensor LUMINOSIDAD quiero GRABAR
+/*Solo apagar , enceder, activar,descativar,estado */	Codigo: CODI19 Sensor LUMINOSIDAD quiero GRABAR 
 /*Solo apagar , enceder, activar,descativar,estado */	Codigo: CODI20 Sensor NEVERAS quiero ENVIAR 10.0324234
-/*Solo ver estado */	Codigo: CODI21 Sensor VIENTO  quiero ESTADO
-/*Solo ver estado */	Codigo: CODI22 Sensor ROTURA_CRISTAL  quiero ESTADO
+/*Solo ver estado */	Codigo: CODI21 Sensor VIENTO  quiero ABRIR
+/*Solo ver estado */	Codigo: CODI22 Sensor ROTURA_CRISTAL  quiero ABRIR
 /*Solo apagar , enceder, activar,descativar,estado */	Codigo: CODI23 Sensor RADIOFRECUENCIA quiero GRABAR
-/*Solo ver estado */	Codigo: CODI24 Sensor INUNDACION  quiero ESTADO
-/*Solo ver estado */	Codigo: CODI25 Sensor LLUVIA  quiero ESTADO
-	Codigo: CODI26 Sensor SISTEMA_IDENTIFICACION quiero DESACTIVAR
+/*Solo ver estado */	Codigo: CODI24 Sensor INUNDACION  quiero ABRIR
+/*Solo ver estado */	Codigo: CODI25 Sensor LLUVIA   quiero ESTADO
+	Codigo: CODI26 Sensor SISTEMA_IDENTIFICACION quiero DETECTAR
 	Codigo: CODI27 Sensor ROBOT_LIMPIADOR quiero ACTIVAR
 	Codigo: CODI28 Sensor NEVERAS quiero ENCENDER
-	Codigo: CODI28 Sensor TEMPERATURA "AMBIENTE" quiero ESTADO
+	Codigo: CODI28 Sensor TEMPERATURA "AMBIENTE" quiero ABRIR
 	Codigo: CODI28 Sensor TEMPERATURA "externa" quiero ESTADO
 	Codigo: CODI28 Sensor TEMPERATURA "mierda" quiero ESTADO
 	Codigo: CODI28 Sensor TEMPERATURA "INTERNA" quiero ESTADO
@@ -40,11 +40,13 @@ Dispositivos{
 	Codigo: CODI29 Sensor NEVERAS "AMBIENTE" quiero ENCENDER
 	Codigo: CODI29 Sensor CO2 "EXTERNA" quiero ESTADO
 	Codigo: CODI28 Sensor TEMPERATURA quiero ESTADO
-/*Mal no puedo sacar numeros doubles */Codigo: CODI6 Sensor CAMARA quiero SACAR 1020
-		Codigo: CODI28 Sensor LUZ  quiero AUMENTAR
-		Codigo: CODI28 Sensor TEMPERATURA  quiero ESTADO
-	/*Mal solo deberia dejar numeros */	Codigo: CODI28 Sensor INUNDACION quiero ESTADO 10.02
-			Codigo: CODI28 Sensor EMERGENCIA  quiero ESTADO
-				Codigo: CODI28 Sensor LUZ quiero AUMENTAR 10.02
-				Codigo: CODI28 Sensor LUZ  quiero AUMENTAR 10 ' AUMENTAR el/la LUZ' 
+/*Mal no puedo sacar numeros doubles */Codigo: CODI6 Sensor CAMARA quiero SACAR 1020 FOTOS
+	Codigo: CODI28 Sensor LUZ  quiero AUMENTAR 10   VOLTIOS
+	Codigo: CODI28 Sensor TEMPERATURA  quiero ESTADO
+	/*Mal solo deberia dejar numeros */	Codigo: CODI28 Sensor INUNDACION quiero ESTADO 
+	Codigo: CODI28 Sensor EMERGENCIA  quiero ESTADO
+	Codigo: CODI28 Sensor LUZ quiero AUMENTAR 10.02 VOLTIOS
+	Codigo: CODI28 Sensor LUZ  quiero AUMENTAR 10 VOLTIOS ' AUMENTAR el/la LUZ' 
+	Codigo: CODI44 Sensor GAS quiero ENVIAR 'asfsdfsdf'
+	Codigo: CODI45 Sensor PULSOMETRO_GANADO quiero ENVIAR 'descripcion'
 	}

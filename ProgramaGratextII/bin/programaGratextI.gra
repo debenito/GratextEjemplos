@@ -41,10 +41,11 @@ Dispositivos{
 	Codigo: CODI29 Sensor CO2 quiero ESTADO
 	Codigo: CODI28 Sensor TEMPERATURA 'INTERNA'quiero ESTADO
 /*Mal no puedo sacar numeros doubles */Codigo: CODI6 Sensor CAMARA quiero SACAR 1020
-		Codigo: CODI28 Sensor LUZ  quiero AUMENTAR 20.3
-		Codigo: CODI28 Sensor TEMPERATURA  'MECEDORA' quiero ESTADO
+		Codigo: CODI29 Sensor LUZ  quiero AUMENTAR 20.3
+		Codigo: CODI30 Sensor TEMPERATURA  'MECEDORA' quiero ESTADO
 	/*Mal solo deberia dejar numeros */	Codigo: CODI28 Sensor INUNDACION quiero ESTADO
-	Codigo: CODI28 Sensor EMERGENCIA  quiero ESTADO
-	Codigo: CODI28 Sensor LUZ quiero AUMENTAR 10.02
-	Codigo: CODI28 Sensor LUZ  quiero AUMENTAR 10 ' AUMENTAR el/la LUZ' 
+	Codigo: CODI31 Sensor EMERGENCIA  quiero ESTADO
+	Codigo: CODI32 Sensor LUZ quiero AUMENTAR 10.02
+	Codigo: CODI33 Sensor LUZ  quiero AUMENTAR 10 ' AUMENTAR el/la LUZ' 
 	}
+
